@@ -26,12 +26,12 @@ MotoronI2C mc1(17);
 MotoronI2C mc2(18);
 
 void addValidMoves();
-bool directionIsValid(int x1, int y1); // verified
-bool checkHistory(int x2, int y2); // verified
-int getTemperature(); // verified
+bool directionIsValid(int x1, int y1); 
+bool checkHistory(int x2, int y2); 
+int getTemperature();
 void move();
-int searchForValids(); // verified
-void retraceToLocation(int target); // verified
+int searchForValids();
+void retraceToLocation(int target); 
 void checkForRFID();
 void clearBufferArray();
 
